@@ -1,0 +1,35 @@
+A* Search algorithm:
+
+Manhattan heuristics: 
+
+initial configuration - puzzle_8 = [1, 5, 7, 3, 6, 2, 0, 4, 8]
+goal configuration - goal = [0, 1, 2, 3, 4, 5, 6, 7, 8]
+steps for reaching the goal: 4311
+number of visited nodes: 10998
+time taken: 6.92s
+
+Misplaced tiles heuristics:
+
+initial configuration - puzzle_8 = [1, 5, 7, 3, 6, 2, 0, 4, 8]
+goal configuration - goal = [0, 1, 2, 3, 4, 5, 6, 7, 8]
+steps for reaching the goal: 2978
+number of visited nodes: 7884
+time taken: 3.49s
+
+Greedy Search algorithm:
+
+Manhattan heuristics: 
+
+initial configuration - puzzle_8 = [1, 5, 7, 3, 6, 2, 0, 4, 8]
+goal configuration - goal = [0, 1, 2, 3, 4, 5, 6, 7, 8]
+steps for reaching the goal: 212
+number of visited nodes: 546
+time taken: 0.02s
+
+Misplaced tiles heuristics:
+
+initial configuration - puzzle_8 = [1, 5, 7, 3, 6, 2, 0, 4, 8]
+goal configuration - goal = [0, 1, 2, 3, 4, 5, 6, 7, 8]
+steps for reaching the goal: 211
+number of visited nodes: 543
+time taken: 3.49s
